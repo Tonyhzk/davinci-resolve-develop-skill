@@ -6,6 +6,24 @@
 
 ---
 
+## [Unreleased]
+
+### 新增
+
+- **resolve_run.py** - 执行入口脚本，自动连接本机 Resolve 并注入常用变量（`resolve`、`project`、`timeline`、`mediapool`）
+- **内联代码执行** - AI 现在可以直接执行 Python 代码实时操作 DaVinci Resolve
+
+### 变更
+
+- **API 参考来源** - 从打包文档改为读取本机 Resolve 安装目录的文档，确保 API 与安装版本一致
+- **SKILL.md 描述** - 更新描述，新增操作相关触发词（操控、时间线、媒体池、项目管理）
+
+### 移除
+
+- **打包参考文档** - 移除随技能打包的 Developer 文档（约 100+ 文件），改为读取本机 Resolve 安装目录
+
+---
+
 ## [1.0.0] - 2026-03-16
 
 ### 首次发布

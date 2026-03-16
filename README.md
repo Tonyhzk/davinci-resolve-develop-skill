@@ -1,6 +1,6 @@
 # DaVinci Resolve Develop Skill
 
-An AI-powered skill that enables large language models to develop scripts, plugins, and automated workflows for DaVinci Resolve.
+An AI-powered skill that enables large language models to directly operate and develop scripts, plugins, and automated workflows for DaVinci Resolve.
 
 **English** | [中文](README_CN.md) | [Changelog](CHANGELOG.md)
 
@@ -20,15 +20,16 @@ An AI-powered skill that enables large language models to develop scripts, plugi
 
 ### Core Features
 
-- **Script Generation** - Generate Lua and Python scripts for DaVinci Resolve automation
-- **API Reference** - Built-in Resolve Scripting API documentation for accurate code generation
+- **Direct Resolve Control** - Operate DaVinci Resolve directly via inline Python code execution
+- **Local API Reference** - Reads API docs from your local Resolve installation, always matching your installed version
 - **Workflow Automation** - Automate editing, color grading, rendering, and delivery tasks
 
 ### Advanced Features
 
 - **Fusion Compositing** - Create Fusion compositions and node-based effects via AI prompts
-- **Color Grading Scripts** - AI-assisted color grading automation and LUT management
-- **Project Templates** - Ready-to-use project and timeline templates for common scenarios
+- **DCTL Color Effects** - Generate GPU-accelerated color transforms and effects
+- **OpenFX / LUT / Fuse** - Develop plugins, lookup tables, and custom Fusion tools
+- **Workflow Integration** - Build Electron or Python-based workflow plugins
 
 ---
 
@@ -60,12 +61,14 @@ cp -r davinci-resolve-develop-skill/src/davinci-resolve-develop-skill/ your-proj
 
 ## Quick Start
 
-Once installed, the AI assistant can help you with DaVinci Resolve development tasks:
+Once installed, the AI assistant can directly operate DaVinci Resolve:
 
-- Generate automation scripts for timeline operations
+- Execute Python code to control Resolve in real-time
+- Generate automation scripts for timeline, media pool, and rendering
 - Create Fusion compositions from text descriptions
-- Build rendering pipeline automation
-- Manage media pool and project settings programmatically
+- Develop DCTL effects, LUTs, OpenFX plugins, and Fuse tools
+
+The skill reads API documentation directly from your local Resolve installation, ensuring accuracy with your installed version.
 
 ---
 
@@ -74,11 +77,17 @@ Once installed, the AI assistant can help you with DaVinci Resolve development t
 ```
 src/davinci-resolve-develop-skill/
 ├── SKILL.md           # Skill definition and instructions
-├── docs/              # API reference documentation
-│   ├── resolve-api/   # DaVinci Resolve Scripting API
-│   └── examples/      # Script examples and templates
-└── scripts/           # Utility scripts
+└── scripts/
+    └── resolve_run.py # Execution entry point (auto-connects to Resolve)
 ```
+
+---
+
+## How It Works
+
+The skill uses `resolve_run.py` to connect to your running DaVinci Resolve instance and execute Python code with pre-injected variables (`resolve`, `project`, `timeline`, `mediapool`, etc.).
+
+API reference is read from your local Resolve installation directory, not bundled with the skill, so it always matches your installed version.
 
 ---
 
@@ -86,7 +95,7 @@ src/davinci-resolve-develop-skill/
 
 ### Prerequisites
 
-- DaVinci Resolve (Free or Studio)
+- DaVinci Resolve (Free or Studio) - must be running
 - Python 3.6+
 - Claude Code CLI
 

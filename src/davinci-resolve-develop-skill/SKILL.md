@@ -1,7 +1,7 @@
 ---
 name: davinci-resolve-develop
 version: 1.1.0
-description: DaVinci Resolve 开发技能。当用户需要开发达芬奇脚本、编写 Resolve 自动化脚本、创建 Fusion 合成/模板、编写 DCTL 色彩效果、开发 OpenFX 插件、制作 LUT、开发 Workflow Integration 插件、编写 Fuse 节点时使用。关键词：DaVinci Resolve、达芬奇、Resolve 脚本、Fusion、DCTL、OpenFX、LUT、Fuse、调色、剪辑自动化、渲染。
+description: DaVinci Resolve 开发与操作技能。当用户需要操作达芬奇、控制 Resolve、开发达芬奇脚本、编写 Resolve 自动化脚本、管理项目/时间线/媒体池、创建 Fusion 合成/模板、编写 DCTL 色彩效果、开发 OpenFX 插件、制作 LUT、开发 Workflow Integration 插件、编写 Fuse 节点时使用。关键词：DaVinci Resolve、达芬奇、Resolve 脚本、Fusion、DCTL、OpenFX、LUT、Fuse、调色、剪辑自动化、渲染、时间线、媒体池、项目管理。
 ---
 
 # DaVinci Resolve 开发技能
