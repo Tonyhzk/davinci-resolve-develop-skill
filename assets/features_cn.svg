@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560" />
+      <stop offset="100%" style="stop-color:#ff6b6b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="320" fill="url(#cardBg)" rx="12"/>
+
+  <!-- 功能 1: 脚本生成 -->
+  <g transform="translate(30, 25)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="40" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#e94560">脚本生成</text>
+    <text x="20" y="75" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">自动生成 Lua/Python 脚本</text>
+    <text x="20" y="100" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">实现 Resolve 自动化操作</text>
+  </g>
+
+  <!-- 功能 2: API 参考 -->
+  <g transform="translate(320, 25)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="40" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#e94560">API 参考</text>
+    <text x="20" y="75" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">内置 Resolve API 文档</text>
+    <text x="20" y="100" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">确保代码生成准确可靠</text>
+  </g>
+
+  <!-- 功能 3: 工作流自动化 -->
+  <g transform="translate(610, 25)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="40" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#e94560">工作流自动化</text>
+    <text x="20" y="75" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">自动化剪辑、调色、渲染</text>
+    <text x="20" y="100" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">等常见工作流任务</text>
+  </g>
+
+  <!-- 功能 4: Fusion 合成 -->
+  <g transform="translate(30, 175)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="40" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#e94560">Fusion 合成</text>
+    <text x="20" y="75" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">通过 AI 创建 Fusion 合成</text>
+    <text x="20" y="100" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">和节点式视觉效果</text>
+  </g>
+
+  <!-- 功能 5: 调色辅助 -->
+  <g transform="translate(320, 175)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="40" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#e94560">调色辅助</text>
+    <text x="20" y="75" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">AI 辅助调色脚本生成</text>
+    <text x="20" y="100" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">和 LUT 管理工具</text>
+  </g>
+
+  <!-- 功能 6: 项目模板 -->
+  <g transform="translate(610, 175)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="40" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#e94560">项目模板</text>
+    <text x="20" y="75" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">开箱即用的项目和</text>
+    <text x="20" y="100" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8892b0">时间线模板</text>
+  </g>
+</svg>

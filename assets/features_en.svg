@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560" />
+      <stop offset="100%" style="stop-color:#ff6b6b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="320" fill="url(#cardBg)" rx="12"/>
+
+  <!-- Feature 1: Script Generation -->
+  <g transform="translate(30, 25)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#e94560">Script Generation</text>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#e94560" dy="20">脚本生成</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">Generate Lua/Python scripts</text>
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">for Resolve automation</text>
+  </g>
+
+  <!-- Feature 2: API Reference -->
+  <g transform="translate(320, 25)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#e94560">API Reference</text>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#e94560" dy="20">API 参考</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">Built-in Resolve API docs</text>
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">for accurate code generation</text>
+  </g>
+
+  <!-- Feature 3: Workflow Automation -->
+  <g transform="translate(610, 25)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#e94560">Workflow Automation</text>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#e94560" dy="20">工作流自动化</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">Automate editing, color</text>
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">grading, and rendering tasks</text>
+  </g>
+
+  <!-- Feature 4: Fusion Compositing -->
+  <g transform="translate(30, 175)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#e94560">Fusion Compositing</text>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#e94560" dy="20">Fusion 合成</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">Create Fusion comps and</text>
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">node-based effects via AI</text>
+  </g>
+
+  <!-- Feature 5: Color Grading -->
+  <g transform="translate(320, 175)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#e94560">Color Grading</text>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#e94560" dy="20">调色辅助</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">AI-assisted color grading</text>
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">scripts and LUT management</text>
+  </g>
+
+  <!-- Feature 6: Project Templates -->
+  <g transform="translate(610, 175)">
+    <rect width="260" height="120" rx="10" fill="#1e2a4a" stroke="#e94560" stroke-width="1" opacity="0.8"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#e94560">Project Templates</text>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#e94560" dy="20">项目模板</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">Ready-to-use project and</text>
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="12" fill="#8892b0">timeline templates</text>
+  </g>
+</svg>
